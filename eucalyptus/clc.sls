@@ -2,8 +2,7 @@ include:
   - euca
 
 clc_pkgs:
-  pkg:
-    - installed
+  pkg.installed:
     - pkgs:
       - eucalyptus-cloud
       - eucalyptus-cc
